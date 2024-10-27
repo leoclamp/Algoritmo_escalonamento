@@ -1,7 +1,6 @@
 # Download de Arquivos em Partes com Algoritmos de Escalonamento, Controle de Acesso e Semáforos
 
 ## Descrição
-O arquivo `Escalonamento.py` realiza downloads em partes de tamanhos variáveis, utilizando dois algoritmos diferentes de gerenciamento de filas: FCFS (First-Come, First-Served) e SJF (Shortest Job First). O `Monitor.py` é utilizado para controlar o acesso ao recurso compartilhado durante o download. O `Semaforo_binario` utiliza um semáforo binário para controlar o acesso ao recurso durante o download de um arquivo. O `Semaforo_contagem` implementa um downloader de arquivos que utiliza um semáforo de contagem para gerenciar o acesso concorrente. O semáforo permite que um número limitado de threads (neste caso, duas) acesse o recurso simultaneamente.
 
 O arquivo `Escalonamento.py` realiza downloads de arquivos em partes de tamanhos variáveis, empregando dois algoritmos distintos de gerenciamento de filas: FCFS (First-Come, First-Served) e SJF (Shortest Job First). O arquivo `Monitor.py` é utilizado para controlar o acesso ao recurso compartilhado durante o processo de download. O módulo `Semaforo_binario.py` implementa um semáforo binário que regula o acesso ao recurso durante o download. Por sua vez, o `Semaforo_contagem.py` implementa um semáforo de contagem para gerenciar o acesso concorrente, permitindo que um número limitado de threads (neste caso, duas) acesse o recurso simultaneamente.
 
